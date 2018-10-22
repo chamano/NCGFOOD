@@ -1,0 +1,355 @@
+
+@import url('https://fonts.googleapis.com/css?family=Arimo|Indie+Flower|Roboto');
+*{
+margin: 0px;
+padding: 0px;
+}
+body{
+  background-color: #bc7325;
+  font-family: 'Roboto', sans-serif;
+}
+h1#headerh1{
+  font-family: 'Roboto', sans-serif;
+}
+h1,h2,h3,h4,h5,h6{
+  font-family: 'Roboto', sans-serif;
+
+}
+header{
+  background-color: #bc7325;
+  height: 60px;
+  position: fixed;
+  width: 100%;
+}
+header > h1{
+color:white;
+width: 20%;
+margin-left: 10%;
+float: left;
+line-height: 2;
+}
+header > nav {
+  width: 50%;
+  margin-left: 20%;
+  display: inline-block;
+}
+header > nav > ul > li {
+  width: 25%;
+  display: inline-block;
+  margin-left: -4px;
+  margin-top: 5px;
+  list-style: none;
+  line-height: 2;
+  text-align: center;
+}
+header > nav > ul > li > a {
+  color: white;
+  font-size: 1.3rem;
+  text-decoration: none;
+}
+section{
+  min-height: 500px;
+}
+section#inicio{
+height: 90vh;
+background-color: black;
+background-image: url(../imgs/fondotienda2.jpg);
+background-size: 100% 100%;
+padding-top: 70px;
+}
+section#inicio > h2 {
+text-align: center;
+color: white;
+font-size: 4rem;
+/* text-transform: uppercase; */
+margin-top: 250px;
+float: left;
+width: 100%;
+text-shadow: 4px 3px 5px rgba(0,0,0,0.69);
+}
+section#inicio>h3{
+  color: white;
+  font-size: 3;
+  padding-bottom: 20px;
+  text-align: center;
+}
+section#inicio >a.comprar{
+  color:white;
+  font-size: 1.3rem;
+  display: block;
+  width: 200px;
+  height: 30px;
+  text-decoration: none;
+  border:2px solid white;
+  text-align: center;
+  margin: 0 auto; /*centrar caja en automatico*/
+  padding: 3px;
+}
+section#inicio >a:last-child{
+  color:white;
+  font-size: 5rem;
+  text-align: center;
+  display: block;
+  width: 100%;
+  margin-top: 3rem;
+
+}
+section#productos > h2 {
+  color: white;
+  text-align: center;
+  margin-top: 1rem;
+  font-size: 2.5rem;
+  text-shadow: 4px 3px 5px rgba(0,0,0,0.69);
+}
+.producto{
+  width: 30%;
+  margin-left: 2.5%;
+  border:1px solid #ccc;
+  border-radius: 10px;
+  min-height: 300px;
+  float: left;
+  margin-top: 1%;
+  text-align: center;
+  overflow: hidden;
+}
+.producto>img{
+  margin-top: 3%;
+  width: 90%;
+  height: 65%;
+  border-radius: 10px;
+}
+.producto>a{
+  background-color: #edb230;
+  text-decoration: none;
+  color: white;
+  padding: 5px;
+  width:150px;
+  height: 50px;
+  border-radius: 10px;
+  line-height: 3;
+
+}
+.producto > .anim{
+  background-color: rgba(0, 0, 0, 0.5);
+  position:absolute;
+  margin-top: -250px;
+  height: 250px;
+}
+section#licoress{
+  height: 300px;
+  min-height: 300px;
+  margin-top: 75px;
+}
+section#licoress{
+  color: white;
+  text-align: center;
+  font-size: 2.2rem;
+  padding-top: 100px;
+}
+.licor{
+  width: 30%;
+  margin-left: 2.5%;
+  border:1px solid #ccc;
+  border-radius: 10px;
+  min-height: 300px;
+  float: left;
+  margin-top: 1%;
+  text-align: center;
+  overflow: hidden;
+}
+.licor>img{
+  margin-top: 3%;
+  width: 90%;
+  height: 65%;
+  border-radius: 10px;
+}
+.licor>a{
+  background-color: #edb230;
+  text-decoration: none;
+  color: white;
+  padding: 5px;
+  width:150px;
+  height: 50px;
+  border-radius: 10px;
+  line-height: 3;
+}
+.licor> .anim{
+  background-color: rgba(0, 0, 0, 0.5);
+  position:absolute;
+  margin-top: -250px;
+  height: 250px;
+}
+section#embasadoss{
+  height: 300px;
+  min-height: 300px;
+  margin-top: 75px;
+}
+section#embasadoss{
+  color: white;
+  text-align: center;
+  font-size: 2.2rem;
+  padding-top: 100px;
+}
+.embas{
+  width: 30%;
+  margin-left: 2.5%;
+  border:1px solid #ccc;
+  border-radius: 10px;
+  min-height: 300px;
+  float: left;
+  margin-top: 1%;
+  text-align: center;
+  overflow: hidden;
+}
+.embas>img{
+  margin-top: 3%;
+  width: 90%;
+  height: 65%;
+  border-radius: 10px;
+}
+.embas>a{
+  background-color: #edb230;
+  text-decoration: none;
+  color: white;
+  padding: 5px;
+  width:150px;
+  height: 50px;
+  border-radius: 10px;
+  line-height: 3;
+}
+.embas> .anim{
+  background-color: rgba(0, 0, 0, 0.5);
+  position:absolute;
+  margin-top: -250px;
+  height: 250px;
+}
+section#dulcess{
+  height: 300px;
+  min-height: 300px;
+  margin-top: 75px;
+}
+section#dulcess{
+  color: white;
+  text-align: center;
+  font-size: 2.2rem;
+  padding-top: 100px;
+}
+.dul{
+  width: 30%;
+  margin-left: 2.5%;
+  border:1px solid #ccc;
+  border-radius: 10px;
+  min-height: 300px;
+  float: left;
+  margin-top: 1%;
+  text-align: center;
+  overflow: hidden;
+}
+.dul>img{
+  margin-top: 3%;
+  width: 90%;
+  height: 65%;
+  border-radius: 10px;
+}
+.dul>a{
+  background-color: #edb230;
+  text-decoration: none;
+  color: white;
+  padding: 5px;
+  width:150px;
+  height: 50px;
+  border-radius: 10px;
+  line-height: 3;
+}
+.dul> .anim{
+  background-color: rgba(0, 0, 0, 0.5);
+  position:absolute;
+  margin-top: -250px;
+  height: 250px;
+}
+section#ofertas{
+  height: 300px;
+  min-height: 300px;
+}
+.ofer{
+  width: 30%;
+  margin-left: 2.5%;
+  border:1px solid #ccc;
+  border-radius: 10px;
+  min-height: 300px;
+  float: left;
+  margin-top: 1%;
+  text-align: center;
+  overflow: hidden;
+}
+.ofer>img{
+  margin-top: 3%;
+  width: 90%;
+  height: 65%;
+  border-radius: 10px;
+}
+.ofer>a{
+  background-color: #edb230;
+  text-decoration: none;
+  color: white;
+  padding: 5px;
+  width:150px;
+  height: 50px;
+  border-radius: 10px;
+  line-height: 3;
+}
+.ofer> .anim{
+  background-color: rgba(0, 0, 0, 0.5);
+  position:absolute;
+  margin-top: -250px;
+  height: 250px;
+}
+section#ofertas>h3{
+  color:white;
+  text-align: center;
+  font-size: 2.2rem;
+  padding-top: 100px;
+}
+section#peticiones .formulario{
+  width: 50%;
+  float: left;
+}
+section#peticiones .mapa{
+  width: 50%;
+  float: left;
+}
+section#peticiones .formulario form{
+  padding: 10px;
+}
+section#peticiones .formulario form h3{
+  font-size: 2rem;
+}
+section#peticiones .formulario form fieldset{
+  margin-top: 10px;
+  border: none;
+}
+section#peticiones .formulario form fieldset label{
+  display: block;
+  width: 100%;
+}
+section#peticiones .formulario form fieldset input[type="text"],
+section#peticiones .formulario form fieldset textarea {
+  display: block;
+  width: 80%;
+  border: none;
+  background-color: white;
+  color:red;
+  outline-color: red;
+}
+section#peticiones .formulario form fieldset textarea{
+  height: 200px;
+  resize:none;
+}
+section#peticiones .formulario form fieldset input[type="submit"]{
+  background-color: #edb230;
+  color:white;
+  width: 140px;
+  height: 30px;
+  font-weight: bold;
+  border: none;
+}
